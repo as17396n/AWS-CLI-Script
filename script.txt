@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo yum update -y
+sudo yum -y install httpd
+sudo service httpd start
+sudo chkconfig httpd on
+sudo service httpd restart
+echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
