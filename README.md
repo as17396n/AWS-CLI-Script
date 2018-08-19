@@ -1,11 +1,11 @@
 AWS CLI Script
 
 Tasks - 
-1. Launche two EC2 instances and installs a web server of your choice using --user-data.
+1. Create two EC2 instances and install a web server of your choice.
 2. Waits until instance is up and running
 3. Once you run the run-instances command you will need to capture and parse the output to get the instance id, you will
    need to pass the instance id as a parameter to create Load balancer
-4. Creates a classic load balancer (previous generation)
+4. Creates a classic load balancer
 5. Registers the EC2 instance created with the load balancer.
 
 Packages to be installed -
