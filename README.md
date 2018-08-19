@@ -19,6 +19,7 @@ Windows, Linux, macOS, or Unix
 If you already have pip and a supported version of Python, you can install the AWS CLI with the following command:
 
 $ pip install awscli --upgrade --user
+
 $ aws configure
 AWS Access Key ID [None]: Access Key
 AWS Secret Access Key [None]: Secret Access key
