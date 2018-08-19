@@ -21,9 +21,13 @@ If you already have pip and a supported version of Python, you can install the A
 $ pip install awscli --upgrade --user
 
 $ aws configure
+
 AWS Access Key ID [None]: Access Key
+
 AWS Secret Access Key [None]: Secret Access key
+
 Default region name [None]: .....
+
 Default output format [None]: .....
 
 
